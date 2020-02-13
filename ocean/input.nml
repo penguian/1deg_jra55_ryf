@@ -197,9 +197,9 @@
     barotropic_split = 80
     cmip_units = .true.
     debug = .false.
-    io_layout = 4, 3
-    layout = 16, 15
-    mask_table = 'INPUT/mask_table.24.16x15'
+    io_layout = 1, 2
+    layout = 11, 10
+    mask_table = 'INPUT/mask_table.3.11x10'
     surface_height_split = 1
     time_tendency = 'twolevel'
     vertical_coordinate = 'zstar'
