@@ -5,7 +5,7 @@
 queue: express
 walltime: 0:30:00
 jobname: 1deg_jra55_ryf
-ncpus: 132
+ncpus: 135
 mem: 500GB
 
 # Force payu to always find, and save, files in this short (or scratch) project directory
@@ -28,7 +28,7 @@ submodels:
       model: mom
       exe: /scratch/fp0/pcl900/access-om2/access-om2-gadi-scaling/bin/fms_ACCESS-OM_4a2f211-modified_libaccessom2_a9e2883-modified.x
       input: /g/data4/ik11/inputs/access-om2/input_rc/mom_1deg
-      ncpus: 107
+      ncpus: 110
 
     - name: ice
       model: cice5
